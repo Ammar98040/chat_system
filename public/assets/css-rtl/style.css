@@ -1,0 +1,53 @@
+/*
+logo 
+======================
+*/
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+/*
+upload image 
+======================
+*/
+#user-image {
+    text-align: center;
+}
+#user-image .upload-image {
+    position: relative;
+    margin-top: 20px;
+}
+#user-image .upload-image input {
+    position: relative;
+    opacity: 0;
+    z-index: 2;
+}
+#user-image .edit-image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+#user-image .profile-img {
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+.content-full {
+    width: 100%;
+    padding: 0;
+}
+
+@media(max-width: 992px){
+    .chat-app-window .user-chats {
+        overflow-y: scroll!important;
+    }
+}
